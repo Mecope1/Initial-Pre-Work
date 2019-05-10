@@ -1,0 +1,41 @@
+/*
+Challenge 16:
+What I learned: I learned how to make an area inside a class definition using grid-area to first specify the location of
+one item. It accepts grid line numbers with 1 being the origin, and extending out to the very edge of the area. The
+syntax for grid-area in this example is row beginning, column beginning, row ending, column ending.
+*/
+
+
+<style>
+  .item1{background:LightSkyBlue;}
+  .item2{background:LightSalmon;}
+  .item3{background:PaleTurquoise;}
+  .item4{background:LightPink;}
+
+  .item5 {
+    background: PaleGreen;
+    /* add your code below this line */
+    grid-area: 3/1/4/4;
+
+    /* add your code above this line */
+  }
+
+  .container {
+    font-size: 40px;
+    min-height: 300px;
+    width: 100%;
+    background: LightGray;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 10px;
+  }
+</style>
+
+<div class="container">
+  <div class="item1">1</div>
+  <div class="item2">2</div>
+  <div class="item3">3</div>
+  <div class="item4">4</div>
+  <div class="item5">5</div>
+</div>

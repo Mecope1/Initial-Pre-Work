@@ -1,0 +1,12 @@
+/*
+Challenge 25:
+What I learned: I learned that even without being defined, that an HTML "body" exists.
+This is an example of CSS inheritance.
+*/
+
+
+<style>
+  body {
+    background-color: black;
+  }
+</style>

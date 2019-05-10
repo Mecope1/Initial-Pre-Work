@@ -1,0 +1,18 @@
+/*
+Challenge 27:
+What I learned: I learned that conflicting styles can be applied to an element and that the body style will be overwritten
+by applying a class style to the element.
+*/
+
+
+<style>
+  body {
+    background-color: black;
+    font-family: monospace;
+    color: green;
+  }
+  .pink-text {
+    color: pink;
+  }
+</style>
+<h1 class="pink-text">Hello World!</h1>

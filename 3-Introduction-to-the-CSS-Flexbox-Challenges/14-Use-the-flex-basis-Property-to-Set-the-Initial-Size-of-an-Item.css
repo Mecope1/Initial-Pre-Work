@@ -1,0 +1,30 @@
+/*
+Challenge 14:
+What I learned: I learned about the flex-basis property. Flex-basis controls the size of the item before any resizing
+is done with flex-shrink or flex-grow. It can be given values of px, em, %, or auto.
+*/
+
+
+<style>
+  #box-container {
+    display: flex;
+    height: 500px;
+  }
+
+  #box-1 {
+    background-color: dodgerblue;
+    height: 200px;
+    flex-basis: 10em;
+  }
+
+  #box-2 {
+    background-color: orangered;
+    height: 200px;
+    flex-basis: 20em;
+  }
+</style>
+
+<div id="box-container">
+  <div id="box-1"></div>
+  <div id="box-2"></div>
+</div>

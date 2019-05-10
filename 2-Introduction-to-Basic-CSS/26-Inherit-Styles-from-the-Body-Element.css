@@ -1,0 +1,17 @@
+/*
+Challenge 26:
+What I learned: I learned more about CSS inheritance by styling an element within the body despite not directly
+referencing it.
+*/
+
+
+<style>
+  body {
+    background-color: black;
+    color: green;
+    font-family: monospace;
+  }
+
+</style>
+
+<h1>Hello World</h1>

@@ -1,0 +1,30 @@
+/*
+Challenge 29:
+What I learned: I learned that while the last class to run has precedence, using the id as a reference in the
+CSS block creates a greater precedence and will win out. However, if you use the [attr=name] method of selecting
+an element, it has lesser precedence than the #id method, but greater than the assigned classes in the method itself.
+*/
+
+
+<style>
+  body {
+    background-color: black;
+    font-family: monospace;
+    color: green;
+  }
+  .pink-text {
+    color: pink;
+  }
+  .blue-text {
+    color: blue;
+  }
+
+  #orange-text {
+    color: orange
+  }
+  [id=orange-text] {
+    color: green;
+  }
+</style>
+<h1 id="orange-text" class="pink-text blue-text">Hello World!</h1>
+

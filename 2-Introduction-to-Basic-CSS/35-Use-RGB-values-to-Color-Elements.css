@@ -1,0 +1,11 @@
+/*
+Challenge 35:
+What I learned: I learned another method of specifying the desired color. rgb() uses 3 numbers, 0-255.
+*/
+
+
+<style>
+  body {
+    background-color: rgb(0, 0, 0);
+  }
+</style>

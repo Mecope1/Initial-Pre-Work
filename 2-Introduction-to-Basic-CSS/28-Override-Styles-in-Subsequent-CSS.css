@@ -1,0 +1,20 @@
+/*
+Challenge 28:
+What I learned: I learned that when conflicting styles are applied to an element, the last one to run will have precedence.
+*/
+
+
+<style>
+  body {
+    background-color: black;
+    font-family: monospace;
+    color: green;
+  }
+  .pink-text {
+    color: pink;
+  }
+  .blue-text {
+    color: blue;
+  }
+</style>
+<h1 class="pink-text blue-text">Hello World!</h1>

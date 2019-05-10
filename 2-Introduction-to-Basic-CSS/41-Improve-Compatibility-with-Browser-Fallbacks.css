@@ -1,0 +1,21 @@
+/*
+Challenge 41:
+What I learned: I learned that certain browsers like IE don't support certain CSS properties like CSS variables.
+To ensure the page still looks and functions correctly, its a good practice to add a fallback to ensure that everyone
+is supported.
+*/
+
+
+<style>
+  :root {
+    --red-color: red;
+  }
+  .red-box {
+    background: red;
+    background: var(--red-color);
+    height: 200px;
+    width:200px;
+  }
+</style>
+<div class="red-box"></div>
+
